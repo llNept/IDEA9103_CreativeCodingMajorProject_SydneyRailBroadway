@@ -29,7 +29,7 @@ const townOutline = [
   {x: 165, y: 200},
   {x: 100, y: 200},
   {x: 62,  y: 180},
-  {x: 62,  y: 100},
+  {x: 62,  y: 100}
 ];
 
 function drawTownOutline() {
@@ -177,7 +177,7 @@ function insidePolyWithMargin(cx, cy, halfW, halfH, poly) {
     {x: cx - halfW, y: cy - halfH},  // top-left corner
     {x: cx + halfW, y: cy - halfH},  // top-right corner
     {x: cx - halfW, y: cy + halfH},  // bottom-left corner
-    {x: cx + halfW, y: cy + halfH},  // bottom-right corner
+    {x: cx + halfW, y: cy + halfH}  // bottom-right corner
   ];
   
   for (let p of pts) {

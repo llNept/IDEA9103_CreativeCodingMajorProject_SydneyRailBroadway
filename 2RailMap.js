@@ -112,8 +112,8 @@ function drawSea() {
   push(); translate(430,450); rotate(45); fill(c_Base); rect(0,0,30,20,2); pop();
 
   fill(c_Sea);
-  rect(570, 0, 12.5, 500); rect(500, 0, 80, 2)
-  rect(569, 0, 2, 500); rect(499, 0, 2, 500)
+  rect(570, 0, 12.5, 500); rect(500, 0, 80, 2);
+  rect(569, 0, 2, 500); rect(499, 0, 2, 500);
 }
 
 function drawRails() {
